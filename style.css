@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 18px;
+  height: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: cadetblue;
+}
+
+nav li {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 0.8rem 0.9rem;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.historia-atencion-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 0.8rem;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content h3 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.content p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.platos-content ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.platos-content li {
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+}
+
+.imagen-salon {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.footer-container {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.footer-container p {
+  text-align: center;
+}
